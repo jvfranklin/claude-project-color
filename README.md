@@ -26,8 +26,19 @@ marketplace with `jvfranklin/claude-project-color`, then Add plugin.
 
 ## Set your colors
 
-The install asks for one setting, **Folder colors**. You can change it later in
-`/config`. It is a comma-separated list of `folder=color` pairs:
+After installing, open `/config` and set **Folder colors** (under
+project-color). Until you do, the plugin does nothing. You can also set it in
+`~/.claude/settings.json`:
+
+```json
+"pluginConfigs": {
+  "project-color@claude-project-color": {
+    "options": { "colors": "~/code/my-app=red, ~/code/website=cyan" }
+  }
+}
+```
+
+The value is a comma-separated list of `folder=color` pairs:
 
 ```
 ~/code/my-app=red, ~/code/website=cyan, ~/work=green
