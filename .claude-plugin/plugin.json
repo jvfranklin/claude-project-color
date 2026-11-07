@@ -1,0 +1,17 @@
+{
+  "name": "project-color",
+  "version": "0.1.0",
+  "description": "Sets the session color from the folder you start in, as if you ran /color yourself.",
+  "author": {
+    "name": "Jon Franklin"
+  },
+  "license": "MIT",
+  "userConfig": {
+    "colors": {
+      "type": "string",
+      "title": "Folder colors",
+      "description": "Comma-separated folder=color pairs, e.g. ~/code/my-app=red, ~/code/other=cyan. Colors: red, blue, green, yellow, purple, orange, pink, cyan. The longest matching folder wins.",
+      "default": ""
+    }
+  }
+}

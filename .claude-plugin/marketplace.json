@@ -1,0 +1,13 @@
+{
+  "name": "claude-project-color",
+  "owner": {
+    "name": "Jon Franklin"
+  },
+  "plugins": [
+    {
+      "name": "project-color",
+      "source": "./"
+    }
+  ],
+  "description": "Sets the Claude Code session color from the folder you start in."
+}
